@@ -10,6 +10,7 @@ License: 	GPL
 URL:		http://prozilla.genesys.ro/
 Group:		Networking/File transfer
 Source:		http://prozilla.genesys.ro/downloads/prozilla/tarballs/%{name}-%{version}.tar.bz2
+Patch0:		prozilla_download_win.h.patch.bz2
 BuildRoot:	%_tmppath/%{name}-buildroot
 Buildrequires:	ncurses-devel
 
@@ -31,6 +32,7 @@ Header files and development files for %{name}
 %prep
 rm -rf %buildroot
 %setup -q -n %{name}-%{version}
+%patch0 -p0
 
 %build
 aclocal
