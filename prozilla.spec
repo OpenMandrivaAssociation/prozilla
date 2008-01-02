@@ -11,6 +11,7 @@ URL:		http://prozilla.genesys.ro/
 Group:		Networking/File transfer
 Source:		http://prozilla.genesys.ro/downloads/prozilla/tarballs/%{name}-%{version}.tar.bz2
 Patch0:		prozilla_download_win.h.patch.bz2
+BuildRoot:	%_tmppath/%{name}-buildroot
 Buildrequires:	ncurses-devel
 
 %description
