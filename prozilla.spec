@@ -1,6 +1,6 @@
 %define name	prozilla
 %define version	2.0.4
-%define release	%mkrel 1
+%define release	%mkrel 2
 
 Summary:	A multithreaded download accelerator
 Name:		%name
