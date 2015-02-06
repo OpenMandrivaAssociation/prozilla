@@ -1,7 +1,7 @@
 Summary:	A multithreaded download accelerator
 Name:		prozilla
 Version:	2.0.4
-Release:	8
+Release:	9
 License: 	GPLv2+
 Group:		Networking/File transfer
 Url:		http://prozilla.genesys.ro/
