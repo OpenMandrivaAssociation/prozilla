@@ -4,7 +4,7 @@ Version:	2.0.4
 Release:	9
 License: 	GPLv2+
 Group:		Networking/File transfer
-Url:		http://prozilla.genesys.ro/
+Url:		https://prozilla.genesys.ro/
 Source0:	http://prozilla.genesys.ro/downloads/prozilla/tarballs/%{name}-%{version}.tar.bz2
 Patch0:		prozilla_download_win.h.patch
 BuildRequires:	pkgconfig(ncurses)
