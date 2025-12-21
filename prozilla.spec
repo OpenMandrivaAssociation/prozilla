@@ -7,6 +7,11 @@ Group:		Networking/File transfer
 Url:		https://prozilla.genesys.ro/
 Source0:	http://prozilla.genesys.ro/downloads/prozilla/tarballs/%{name}-%{version}.tar.bz2
 Patch0:		prozilla_download_win.h.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(ncurses)
 
 %description
